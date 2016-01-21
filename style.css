@@ -1,0 +1,356 @@
+/*
+
+	Design by TEMPLATED
+	http://templated.co
+	Released for free under the Creative Commons Attribution License
+
+	Name       : Cupcaked Out
+	Version    : 1.0
+	Released   : 20130222
+	
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #e59e8b;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 12pt;
+	line-height: 2em;
+	font-family: Georgia, serif;
+    background-color: #e8f3ff;
+	background-image: url('images/clouds.png'), url('images/bg2.gif');
+    background-position: top center, top left;
+    background-repeat: no-repeat, repeat-x;
+	color: #cacfd1;
+}
+
+br.clear {
+	clear: both;
+}
+
+p {
+    margin-bottom: 1.75em;
+}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1.25em;
+	font-family: Bitter, serif;
+	color: #ffffff;
+}
+
+img.left {
+	float: left;
+	margin: 8px 20px 20px 0;
+}
+
+img.top {
+	margin: 8px 0 20px 0;
+}
+
+ul {
+	margin-bottom: 1.75em;
+}
+
+.newsList {
+    list-style: none;
+}
+
+.newsList li {
+	clear: both;
+    white-space: nowrap; 
+    width: 454px; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.newsList li a {
+    text-decoration: none;
+}
+
+.imageList {
+	list-style: none;
+}
+
+.imageList li {
+	clear: both;
+}
+
+#banner {
+	background: #ffffff;
+    width:  100%;
+    position: relative;
+    margin-bottom: 48px;
+}
+
+#banner img {
+    display: block;
+    width: 100%;
+}
+
+#banner button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 3px 5px;
+}
+
+.box1 {
+    position: relative;
+	width: 932px;
+	overflow: hidden;
+}
+
+.box1 > div {
+    box-sizing: border-box;
+}
+
+.box2 {
+    position: relative;
+	width: 454px;
+	overflow: hidden;
+    float: left;
+}
+
+.box3 {
+	width: 454px;
+	overflow: hidden;
+    float: right;
+}
+
+#content {
+    position: relative;
+	width: 948px;
+	padding: 0px;
+    width: 100%;
+}
+
+#copyright {
+	margin: 32px 0 64px 0;
+	text-align: center;
+	color: #5B858F;
+}
+
+#copyright a {
+	color: #5B858F;
+}
+
+#footer {
+	position: relative;
+	padding: 28px;
+	width: 922px;
+	background: #6bad81 url('images/bg3.gif') top left repeat-x;
+	color: #e2f7e9;
+	border: solid 1px #b3e5c4;
+	border-top: solid 1px #60a075;
+	text-shadow: 0px 1px 1px #2c8e4d;
+}
+
+#footer a {
+	color: #effbf3;
+}
+
+#footer h2, #footer h3, #footer h4 {
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #2c8e4d;
+}
+
+#footerContent {
+    display: block;
+}
+
+#overlay {
+    
+}
+
+#header {
+	position: relative;
+	padding: 28px;
+	height: 150px;
+}
+
+#logo {
+	text-align: center;
+	position: relative;
+	margin: -14px auto;
+	height: 112px;
+	line-height: 112px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 0 3px 1px #00313d;
+}
+
+#logo h1 {
+	font-size: 3em;
+	font-family: Bitter, serif;
+}
+
+#main {
+	position: relative;
+	padding: 48px 24px 0 24px;
+	width: 932px;
+	background: #ffffff;
+	color: #424242;
+}
+
+#main strong {
+	color: #282828;
+}
+
+#main a {
+	color: #cc66a3;
+}
+
+#main h2, #main h3, #main h4 {
+	color: #262626;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 8px 0 8px 0;
+	border-top: dashed 1px #c7c7c7;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 978px;
+	height: 66px;
+	line-height: 66px;
+	margin: 0px 0 0 0;
+	background: #e59e8b url('images/bg1.gif');
+	font-family: Bitter, serif;
+	border: solid 1px #49c271;
+	border-top: solid 2px #d9f2e1;
+	font-size: 1.1em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#nav a {
+	text-decoration: none;
+	text-shadow: 0px 1px 1px #1b773a;
+	color: #ffffff;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0 auto;
+	width: 882px;
+	text-align: center;
+}
+
+#nav ul li {
+	display: inline;
+	text-align: center;
+	padding: 0 1em 0 1em;
+}
+
+#outer {
+	position: relative;
+	width: 980px;
+	margin: 64px auto 0 auto;
+}
+
+#search input.button {
+	margin-left: 1em;
+	border: 0px;
+	color: #ffffff;
+	background: #e59e8b;
+	padding: 5px;
+}
+
+#search input.text {
+	border: dashed 1px #ffffff;
+	padding: 4px;
+}
+
+#sidebar {
+	width: 300px;
+	float: left;
+	padding: 0px;
+}
+
+input[type='text'], input[type='password'] {
+    padding: 5px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#footer input[type='submit'], #footer button {
+    border: 1px solid transparent;
+    border-color: #3a9abb;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4fd2ff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#footer input[type='submit']:hover, #footer button:hover {
+    background-color: #00beff;
+}
+
+#footer input[type='submit']:active, #footer button:active {
+    -webkit-box-shadow: inset 0px 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0px 3px 5px rgba(0,0,0,0.125);
+    /*padding: 6px 9px 4px 11px;*/
+}
+
+.nicEdit-panelContain {
+    box-sizing: border-box;
+}
+
+.nicEdit-panelContain, .nicEdit-pane {
+    font-size: medium;
+    line-height: normal;
+    color: black;
+}
+
+.nicEdit-pane h1, .nicEdit-pane h2, .nicEdit-pane h3, .nicEdit-pane h4 {
+    color: black;
+}
+
+.box-btns {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.nicEdit-editbtn, .nicEdit-cancelbtn, .nicEdit-savebtn {
+    padding: 3px 5px;
+}
